@@ -1574,9 +1574,10 @@ GameObject:
   - component: {fileID: 780974552}
   - component: {fileID: 780974551}
   - component: {fileID: 780974550}
+  - component: {fileID: 780974554}
   m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
+  m_Name: Enemy
+  m_TagString: Bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1645,6 +1646,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90.775, z: 0}
+--- !u!114 &780974554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 780974549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9acd7dd9da8b6d24780f74f893d175c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaE: {fileID: 346538987}
 --- !u!1 &895022047
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,7 +2159,7 @@ Transform:
   m_GameObject: {fileID: 1103762761}
   m_LocalRotation: {x: -0.7406342, y: -0.0012474175, z: 0.008502727, w: 0.67185354}
   m_LocalPosition: {x: 0.611, y: 0.405, z: 0.304}
-  m_LocalScale: {x: 0.2142857, y: 0.7247508, z: 0.20898199}
+  m_LocalScale: {x: 0.7247508, y: 0.208982, z: 0.20898199}
   m_Children: []
   m_Father: {fileID: 1945593257}
   m_RootOrder: 1
@@ -2214,7 +2227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 54660247005996008, guid: bebdcbcf8d0b39f4cac496bdc21ac271, type: 2}
-  speed: 15
+  speed: 50
 --- !u!1 &1153872162
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,7 +3777,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1945593252}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 50
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1

@@ -1,16 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class EnemyController : MonoBehaviour {
+public class EnemyController : MonoBehaviour
+{
+    public Slider vidaE;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	void OnCollisionEnter (Collision other)
+    {
+        if (other.gameObject.CompareTag("Bala"))
+        {
+            vidaE.value = vidaE.value - 0.5f;
+        }
+        if (vidaE.value == 0)
+        {
+            gameObject.SetActive(false);
+        }
+
 	}
 }
