@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    Rigidbody bullet;
+    public Rigidbody bullet;
     public float speed;
-    public GameObject player;
+
 
     void Fire()
     {
