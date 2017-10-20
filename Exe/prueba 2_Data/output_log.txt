@@ -1,0 +1,50 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     1127 MB
+    Driver:   20.19.15.4549
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Marjorie Leyva\Documents\GitHub\escenario-Getaway\Exe\prueba 2_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.032 seconds
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.681239 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1d50 -> priority: 1 
+  Thread -> id: 2154 -> priority: 1 
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.433762 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 571.
+Total: 0.320739 ms (FindLiveObjects: 0.053029 ms CreateObjectMapping: 0.019672 ms MarkObjects: 0.233498 ms  DeleteObjects: 0.013257 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.170767 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 313.
+Total: 0.452457 ms (FindLiveObjects: 0.052601 ms CreateObjectMapping: 0.037633 ms MarkObjects: 0.231788 ms  DeleteObjects: 0.129578 ms)
+
